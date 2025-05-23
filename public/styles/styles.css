@@ -1,0 +1,428 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    flex-shrink: 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.cart-icon img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#cart-items li button.delete-btn {
+    margin-left: 10px;
+}
+
+#cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+#cart-total {
+    position: absolute;
+    top: 40px; /* Increased from 20px to add more space below cart */
+    right: -10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.85rem;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Small icon shown when adding to cart */
+.small-cart-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    vertical-align: middle;
+    animation: fadeInOut 2s forwards;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0; transform: scale(0.5); }
+}
+
+/* Slider */
+.slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 15s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    33% { margin-left: -100%; }
+    66% { margin-left: -200%; }
+    100% { margin-left: 0; }
+}
+
+/* Cursos */
+.course-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex-grow: 1;
+}
+
+.course-container h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Course cards */
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1 1 220px;
+    max-width: 280px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.course-card img {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.course-card .info {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-card h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.course-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    margin: 5px auto;
+    color: #666;
+}
+
+.course-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: stretch;
+}
+
+.course-card button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.course-card button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
+
+/* Delete button in cart styled red */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+/* Carrito Flotante */
+.cart-modal {
+    position: fixed;
+    right: 2rem;
+    top: 5rem;
+    width: 320px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-modal.hidden {
+    display: none;
+}
+
+#cart-items {
+    list-style: none;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#cart-items.hidden {
+    display: none;
+}
+
+#checkout-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* Formulario de pago */
+#payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    max-height: none;
+    overflow-y: visible;
+}
+
+#payment-form.hidden {
+    display: none;
+}
+
+#payment-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+#payment-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#payment-form input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+#pay-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#pay-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        min-height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .slider {
+        height: 200px;
+    }
+
+    .course-container {
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .course-card {
+        width: 200px;
+        max-width: none;
+        flex: none;
+    }
+
+    #course-list {
+        gap: 1rem;
+    }
+
+    .cart-modal {
+        width: 90%;
+        right: 5%;
+        top: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .course-container {
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .course-card {
+        width: 100%;
+        max-width: 300px;
+        flex: none;
+    }
+
+    .slider {
+        height: 150px;
+    }
+}

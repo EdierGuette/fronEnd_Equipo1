@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Salida de builds (si usas algún empaquetador o transpilador)
+dist/
+build/
+
+# Archivos del sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de VS Code
+.vscode/
+*.code-workspace

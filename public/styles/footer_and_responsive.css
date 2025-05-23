@@ -1,0 +1,80 @@
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .slider {
+        height: 200px;
+    }
+
+    .course-container {
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .course-card {
+        width: 200px;
+        max-width: none;
+        flex: none;
+    }
+
+    .cart-modal {
+        width: 90%;
+        right: 5%;
+        top: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .course-container {
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .course-card {
+        width: 100%;
+        max-width: 300px;
+        flex: none;
+    }
+
+    .slider {
+        height: 150px;
+    }
+}

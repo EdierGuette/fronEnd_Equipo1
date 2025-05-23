@@ -1,0 +1,29 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev:banco": "nodemon banco.js",
+    "dev:gateway": "nodemon app.js",
+    "dev": "concurrently \"npm run start\" \"npm run dev:banco\" \"npm run dev:gateway\""
+  },
+  "keywords": [],
+  "author": "", 
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}

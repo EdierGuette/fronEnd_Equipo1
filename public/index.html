@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-commerce de Cursos de Programación</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/footer_and_responsive.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">CodeAcademy</div>
+            <ul class="nav-links">
+                <li style="margin-right: 40px;"><a href="#cursos">Cursos Disponibles</a></li>
+                <li class="cart-icon">
+                    <img src="/images/carrito.png" alt="Carrito" id="cart-btn" />
+                    <span id="cart-count">0</span>
+                    <span id="cart-total"></span>
+                </li>
+            </ul>
+        </nav>
+        <style>
+            nav.navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #2c3e50;
+                z-index: 1000;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            nav.navbar .logo {
+                color: #fff;
+                font-weight: bold;
+                font-size: 1.5rem;
+                padding: 10px 20px;
+                display: inline-block;
+            }
+
+            nav.navbar .nav-links {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+
+            }
+
+            nav.navbar .nav-links li {
+                display: inline-block;
+                margin-left: 20px;
+            }
+
+            nav.navbar .nav-links li a {
+                font-weight: bold;
+                color: #ffffff;
+                text-decoration: none;
+                padding: 10px 15px;
+                display: inline-block;
+            }
+
+            nav.navbar .nav-links li a:hover {
+                text-decoration: underline;
+            }
+
+            body {
+                padding-top: 60px;
+                /* To prevent content from being hidden under fixed navbar */
+            }
+        </style>
+    </header>
+
+    <!-- Slider -->
+    <section class="slider">
+        <div class="slides">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
+                alt="Slide 1" />
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+                alt="Slide 2" />
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                alt="Slide 3" />
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section id="cursos" class="course-container">
+        <h2>Nuestros Cursos</h2>
+        <div id="course-list">
+            <!-- Los cursos se generarán dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Carrito de Compras -->
+    <div id="cart-modal" class="cart-modal hidden">
+        <h3>Carrito de Compras</h3>
+        <ul id="cart-items">
+            <!-- Los ítems se generarán dinámicamente -->
+        </ul>
+        <button id="checkout-btn">Comprar</button>
+
+        <form id="payment-form" class="hidden">
+            <label for="course-id">ID del Curso:</label>
+            <input type="text" id="course-id" name="course-id" readonly />
+
+            <label for="documento">Documento:</label>
+            <input type="text" id="documento" name="documento" required />
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required />
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="plan">Plan:</label>
+            <input type="text" id="plan" name="plan" readonly />
+
+            <label for="valor-total">Valor Total:</label>
+            <input type="text" id="valor-total" name="valor-total" readonly />
+
+            <button type="submit" id="pay-btn">Pagar</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 CodeAcademy. Todos los derechos reservados.</p>
+            <p>Síguenos en
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>,
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>,
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="/app.js"></script>
+    <script src="/carrito.js"></script>
+
+</body>
+
+</html>
