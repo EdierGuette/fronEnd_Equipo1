@@ -20,7 +20,7 @@ const courseList = document.getElementById('course-list');
 
 const fetchCursos = async () => {
     try {
-        const response = await fetch('http://localhost:3003/api/courses');
+        const response = await fetch('https://cursosdisponibles-equipo4.onrender.com/api/courses');
         cursos = await response.json();
         renderCursos();
     } catch (error) {
@@ -47,7 +47,7 @@ const renderCursos = () => {
         <button onclick="agregarAlCarrito('${cursoIdStr}')" ${isInCart ? 'disabled' : ''}>
             ${isInCart ? 'Añadido' : 'Comprar'}
         </button>
-        <button id="verCursoBtn" onclick="window.location.href='http://localhost:3003/videos.html?id=${cursoIdStr}'" ${enableVerCurso ? '' : 'disabled'}>
+        <button id="verCursoBtn" onclick="window.location.href='https://cursosdisponibles-equipo4.onrender.com/videos.html?id=${cursoIdStr}'" ${enableVerCurso ? '' : 'disabled'}>
             Ver Curso
         </button>
     </div>
