@@ -149,7 +149,7 @@ paymentForm.addEventListener('submit', async (e) => {
 
     try {
         // Enviar datos al servidor de la pasarela de pago
-        const response = await fetch('http://localhost:3001/api/pagar', {
+        const response = await fetch('https://bancopasarela-equipo2.onrender.com/api/pagar', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -177,7 +177,7 @@ paymentForm.addEventListener('submit', async (e) => {
             renderCarrito();
 
             // Redirect to banco_pasarela payment page after successful payment request
-            window.location.href = 'http://localhost:3001/';
+            window.location.href = 'https://bancopasarela-equipo2.onrender.com/';
         } else {
             alert('El pago no fue aprobado. Intente nuevamente.');
         }

@@ -1,1 +1,1 @@
-export const bancoPasarelaBaseUrl = 'http://localhost:3001';
+export const bancoPasarelaBaseUrl = 'https://bancopasarela-equipo2.onrender.com';
