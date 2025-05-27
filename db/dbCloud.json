@@ -1,0 +1,738 @@
+[
+  {
+    "nombre": "Curso de JavaScript",
+    "descripcion": "Aprende JS desde cero",
+    "precio": 50,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "videos": [
+      {
+        "title": "Curso JavaScript - INTRODUCCIÓN",
+        "url": "https://www.youtube.com/embed/mpIwKBNr7_o"
+      },
+      {
+        "title": "Curso JavaScript - PRIMER CODIGO JAVASCRIPT",
+        "url": "https://www.youtube.com/embed/bQciY0LFQvo"
+      },
+      {
+        "title": "Curso JavaScript - VARIABLES",
+        "url": "https://www.youtube.com/embed/3XpXklYEiSQ"
+      },
+      {
+        "title": "Curso JavaScript - TIPOS DE DATOS",
+        "url": "https://www.youtube.com/embed/cXnmaE0FDeE"
+      },
+      {
+        "title": "Curso JavaScript - CONCATENACION",
+        "url": "https://www.youtube.com/embed/bhf03vBQUc8"
+      },
+      {
+        "title": "Curso JavaScript - COMENTARIOS",
+        "url": "https://www.youtube.com/embed/ftxLpLPzbzg"
+      },
+      {
+        "title": "Curso JavaScript - CAPTURAR DATOS DEL USUARIO",
+        "url": "https://www.youtube.com/embed/M7yqd0CHN90"
+      },
+      {
+        "title": "Curso JavaScript - CONSTANTES",
+        "url": "https://www.youtube.com/embed/TfAvuJA7sgE"
+      },
+      {
+        "title": "Curso JavaScript - OPERADORES MATEMATICOS",
+        "url": "https://www.youtube.com/embed/JLiWZETdqTI"
+      },
+      {
+        "title": "Curso JavaScript - OPERADORES ASIGNACION [INCREMENTO Y DECREMENTO ]",
+        "url": "https://www.youtube.com/embed/ekt9uaESzOo"
+      },
+      {
+        "title": "Curso JavaScript - OPERADORES DE COMPARACION",
+        "url": "https://www.youtube.com/embed/OD2PYOiK0wo"
+      },
+      {
+        "title": "Curso JavaScript - FUNCIONES MATEMATICAS",
+        "url": "https://www.youtube.com/embed/MsZ2xXNOzrs"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Node.js",
+    "descripcion": "Backend con Node.js y Express",
+    "precio": 60,
+    "imagen": "https://nodejs.org/static/images/logo.svg",
+    "videos": [
+      {
+        "title": "Curso Node.js - Introducción y primeros pasos",
+        "url": "https://www.youtube.com/embed/yB4n_K7dZV8"
+      },
+      {
+        "title": "Curso Node.js - Desarrollando una API con Express desde cero",
+        "url": "https://www.youtube.com/embed/YmZE1HXjpd4"
+      },
+      {
+        "title": "Curso Node.js - SOLUCIÓN de CORS y Desarrollo de API REST con Express",
+        "url": "https://www.youtube.com/embed/-9d3KhCqOtU"
+      },
+      {
+        "title": "Curso Node.js - EL PODER de la ARQUITECTURA MVC + Despliegue de API REST",
+        "url": "https://www.youtube.com/embed/ev3Yxva4wI4"
+      },
+      {
+        "title": "Curso Node.js - Crea un Base de Datos MySQL y evita los hackers (buenas prácticas)",
+        "url": "https://www.youtube.com/embed/eCWNQfzuuso"
+      },
+      {
+        "title": "Curso Node.js - Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS",
+        "url": "https://www.youtube.com/embed/WpbBhTx5R9Q"
+      },
+      {
+        "title": "Curso Node.js - Aprende Autenticación de Usuario, Sesión, Cookies y JWT con Node.js",
+        "url": "https://www.youtube.com/embed/UqnnhAZxRac"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de React",
+    "descripcion": "Interfaces interactivas con React",
+    "precio": 70,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "videos": [
+      {
+        "title": "Curso React - Aprende desde cero",
+        "url": "https://www.youtube.com/embed/7iobxzd_2wY"
+      },
+      {
+        "title": "Curso React - Crea un videojuego y una aplicación para aprender useState y useEffect",
+        "url": "https://www.youtube.com/embed/qkzcjwnueLA"
+      },
+      {
+        "title": "Curso React - ¡Resuelvo Prueba Técnica de React para Juniors y Trainee!",
+        "url": "https://www.youtube.com/embed/XYpadB4VadY"
+      },
+      {
+        "title": "Curso React - Custom Hooks + Testing con Playwright",
+        "url": "https://www.youtube.com/embed/x-LcbVw99o8"
+      },
+      {
+        "title": "Curso React - Aprende a pasar una Prueba Técnica de React. Entiende useMemo, useCallback y useRef",
+        "url": "https://www.youtube.com/embed/GOEiMwDJ3lc"
+      },
+      {
+        "title": "Curso React - Tienda y Carrito con React + Estado Global con useContext + Manejo de estado con useReducer",
+        "url": "https://www.youtube.com/embed/B9tDYAZZxcE"
+      },
+      {
+        "title": "Curso React - ¡Aprende a crear React Router desde cero y publica el paquete!",
+        "url": "https://www.youtube.com/embed/K2NcGYajvY4"
+      },
+      {
+        "title": "Curso React - Clon de Google Translate | React, TypeScript, ChatGPT + ViteTest",
+        "url": "https://www.youtube.com/embed/kZhabulNCUc"
+      },
+      {
+        "title": "Curso React - CRUD con React Redux Toolkit + Rome Tools y Tremor",
+        "url": "https://www.youtube.com/embed/bEEjuwujbbU"
+      },
+      {
+        "title": "Curso React - RESUELVO PRUEBA TÉCNICA de €55K AL AÑO en Europa | React + TypeScript",
+        "url": "https://www.youtube.com/embed/mNJOWXc83Y4"
+      },
+      {
+        "title": "Curso React - APRENDE React Query DESDE CERO: Paginación, Infinite Scroll, DevTools",
+        "url": "https://www.youtube.com/embed/WKfVjQUa6nE"
+      },
+      {
+        "title": "Curso React - ¡No necesitas Redux en React! Aprende a usar Zustand, alternativa sencilla.",
+        "url": "https://www.youtube.com/embed/p2wF2wRjcN0"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Python",
+    "descripcion": "Programación con Python",
+    "precio": 55,
+    "imagen": "https://www.python.org/static/community_logos/python-logo.png",
+    "videos": [
+      {
+        "title": "Curso Python - Introducción",
+        "url": "https://www.youtube.com/embed/9ojhJsXNWCI"
+      },
+      {
+        "title": "Curso Python - Instalación VSC",
+        "url": "https://www.youtube.com/embed/dNjiVwpti38"
+      },
+      {
+        "title": "Curso Python - Primer programa con VSC",
+        "url": "https://www.youtube.com/embed/C1FyeIAlwLk"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica I",
+        "url": "https://www.youtube.com/embed/yppT6GPZMyo"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica II Tipos, operadores y variables",
+        "url": "https://www.youtube.com/embed/u4I9PqhqCo8"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica III Funciones I",
+        "url": "https://www.youtube.com/embed/VY448UWAQ_0"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica IV Funciones II",
+        "url": "https://www.youtube.com/embed/vawEHhV_HFA"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica V. Las listas",
+        "url": "https://www.youtube.com/embed/Q8hugySbLQQ"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica VI. Las tuplas",
+        "url": "https://www.youtube.com/embed/Ufqh8aoR9hE"
+      },
+      {
+        "title": "Curso Python - Sintaxis Básica VII Los diccionarios",
+        "url": "https://www.youtube.com/embed/2OmgHl8lp0I"
+      },
+      {
+        "title": "Curso Python - Condicionales I",
+        "url": "https://www.youtube.com/embed/iV-4F0jGWak"
+      },
+      {
+        "title": "Curso Python - Condicionales II",
+        "url": "https://www.youtube.com/embed/cf7o4s9nFu8"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Java",
+    "descripcion": "Java para principiantes",
+    "precio": 65,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "videos": [
+      {
+        "title": "Curso Java - Introducción",
+        "url": "https://www.youtube.com/embed/_WJkT42l7Wk"
+      },
+      {
+        "title": "Curso Java - Instalación Java + Eclipse",
+        "url": "https://www.youtube.com/embed/Z5l1RmsP2gU"
+      },
+      {
+        "title": "Curso Java - Estructuras principales",
+        "url": "https://www.youtube.com/embed/w2RMHSNZe-k"
+      },
+      {
+        "title": "Curso Java - Estructuras principales II. Inferencia de tipos",
+        "url": "https://www.youtube.com/embed/ZJEHc8oQw_0"
+      },
+      {
+        "title": "Curso Java - Estructuras principales III",
+        "url": "https://www.youtube.com/embed/DY1GbOM7rqs"
+      },
+      {
+        "title": "Curso Java - Operadores en Java",
+        "url": "https://www.youtube.com/embed/0SG9exLJub8"
+      },
+      {
+        "title": "Curso Java - Declaración múltiple y constantes",
+        "url": "https://www.youtube.com/embed/5vWUjGbUslE"
+      },
+      {
+        "title": "Curso Java - Clase Math y API",
+        "url": "https://www.youtube.com/embed/BwZexhLgcfA"
+      },
+      {
+        "title": "Curso Java - Clase Math, Casting y API",
+        "url": "https://www.youtube.com/embed/hkyyaEq84Qg"
+      },
+      {
+        "title": "Curso Java - Clases Math, BigInteger y métodos comunes en Math",
+        "url": "https://www.youtube.com/embed/uerM1mbU_FM"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de C++",
+    "descripcion": "Programación en C++",
+    "precio": 60,
+    "imagen": "https://isocpp.org/assets/images/cpp_logo.png",
+    "videos": [
+      {
+        "title": "Curso C++ - Nuestro PRIMER PROGRAMA en C++",
+        "url": "https://www.youtube.com/embed/qkzu8NM7Qbc"
+      },
+      {
+        "title": "Curso C++ - Variables y Tipos de Datos en C++",
+        "url": "https://www.youtube.com/embed/2hr4lIuR3Ps"
+      },
+      {
+        "title": "Curso C++ - Como USAR CONST en C++",
+        "url": "https://www.youtube.com/embed/zEfYG_148ag"
+      },
+      {
+        "title": "Curso C++ - Qué son los Namespaces en C++",
+        "url": "https://www.youtube.com/embed/LyxWnv22YTY"
+      },
+      {
+        "title": "Curso C++ - Definición de Typedef en C++",
+        "url": "https://www.youtube.com/embed/0gOqBq3D1SU"
+      },
+      {
+        "title": "Curso C++ - Operadores Aritméticos en C++",
+        "url": "https://www.youtube.com/embed/gJa6xd1zddw"
+      },
+      {
+        "title": "Curso C++ - Conversión de tipos en C++",
+        "url": "https://www.youtube.com/embed/eSXvkZETw58"
+      },
+      {
+        "title": "Curso C++ - Entrada de Usuario en C++ (INPUT)",
+        "url": "https://www.youtube.com/embed/5JPVErtAvJo"
+      },
+      {
+        "title": "Curso C++ - 8 Funciones útiles en C++",
+        "url": "https://www.youtube.com/embed/yHTdY-D3L6Y"
+      },
+      {
+        "title": "Curso C++ - Calculando la Hipotenusa de un Triangulo Rectángulo en C++",
+        "url": "https://www.youtube.com/embed/0GThyGyQGJU"
+      },
+      {
+        "title": "Curso C++ - Condicional IF en C++ (Sintaxis, declaración y uso en C++)",
+        "url": "https://www.youtube.com/embed/7KuSfLbI2e0"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de CSS",
+    "descripcion": "Diseño con CSS avanzado",
+    "precio": 45,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "videos": [
+      {
+        "title": "CURSO DE CSS COMPLETO: De Principiante a Front-End 2024",
+        "url": "https://www.youtube.com/embed/TlJbu0BMLaY"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de HTML5",
+    "descripcion": "Estructura web con HTML5",
+    "precio": 40,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "videos": [
+      {
+        "title": "Curso HTML5 - Herramientas",
+        "url": "https://www.youtube.com/embed/F7MYHXaKZ7g"
+      },
+      {
+        "title": "Curso HTML5 - Crear Proyecto en VSCode",
+        "url": "https://www.youtube.com/embed/9HTEVZdxRPs"
+      },
+      {
+        "title": "Curso HTML5 - Sintaxis",
+        "url": "https://www.youtube.com/embed/N-C6iVzYjBI"
+      },
+      {
+        "title": "Curso HTML5 - Estructura Básica de HTML",
+        "url": "https://www.youtube.com/embed/Ge76DtYrs5A"
+      },
+      {
+        "title": "Curso HTML5 - Etiqueta Head de HTML",
+        "url": "https://www.youtube.com/embed/_shmyUAEI4I"
+      },
+      {
+        "title": "Curso HTML5 - Archivos Externos en HTML",
+        "url": "https://www.youtube.com/embed/l-d9JfmgjfA"
+      },
+      {
+        "title": "Curso HTML5 - Estilos CSS en HTML",
+        "url": "https://www.youtube.com/embed/qci9eTQ5fdk"
+      },
+      {
+        "title": "Curso HTML5 - JavaScript en HTML",
+        "url": "https://www.youtube.com/embed/JJq9F1p7G9g"
+      },
+      {
+        "title": "Curso HTML5 - Generar Estructura Básica de HTML con IA",
+        "url": "https://www.youtube.com/embed/EjU1dVyHEvg"
+      },
+      {
+        "title": "Curso HTML5 - Títulos y Párrafos en HTML",
+        "url": "https://www.youtube.com/embed/pcsTTcnciZQ"
+      },
+      {
+        "title": "Curso HTML5 - Etiquetas de Secciones en HTML (Parte 1)",
+        "url": "https://www.youtube.com/embed/pk2KBDhAk9s"
+      },
+      {
+        "title": "Curso HTML5 - Etiquetas de Secciones en HTML (Parte 2)",
+        "url": "https://www.youtube.com/embed/SSY3dCn18to"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Angular",
+    "descripcion": "Framework Angular",
+    "precio": 70,
+    "imagen": "https://angular.io/assets/images/logos/angular/angular.svg",
+    "videos": [
+      {
+        "title": "Curso Angular - Introducción a Angular",
+        "url": "https://www.youtube.com/embed/0hgDZOxLiQQ"
+      },
+      {
+        "title": "Curso Angular - Primer proyecto en Angular",
+        "url": "https://www.youtube.com/embed/12hcIEoFRFY"
+      },
+      {
+        "title": "Curso Angular - Explicación de archivos y directorios",
+        "url": "https://www.youtube.com/embed/m2TIAtl2w8g"
+      },
+      {
+        "title": "Curso Angular - Explicación del directorio SRC",
+        "url": "https://www.youtube.com/embed/gUw1b1BjteI"
+      },
+      {
+        "title": "Curso Angular - Counter Page | Componente",
+        "url": "https://www.youtube.com/embed/RKWbxZf9Vd0"
+      },
+      {
+        "title": "Curso Angular - Separar template de la lógica",
+        "url": "https://www.youtube.com/embed/nlL6aYU-l_w"
+      },
+      {
+        "title": "Curso Angular - Señales",
+        "url": "https://www.youtube.com/embed/6wD-xcQ_1a8"
+      },
+      {
+        "title": "Curso Angular - Zoneless Angular",
+        "url": "https://www.youtube.com/embed/7AsPOU7cOS4"
+      },
+      {
+        "title": "Curso Angular - Tarea: Reforzar lo aprendido hasta el momento",
+        "url": "https://www.youtube.com/embed/t4_I5NwQsU0"
+      },
+      {
+        "title": "Curso Angular - Solución a la tarea",
+        "url": "https://www.youtube.com/embed/5LrkiWIFuF0"
+      },
+      {
+        "title": "Curso Angular - Señales computadas | ReadOnly Signals",
+        "url": "https://www.youtube.com/embed/_jqPpmaroNY"
+      },
+      {
+        "title": "Curso Angular - Resumen de lo aprendido",
+        "url": "https://www.youtube.com/embed/j5SXsu_Xr6k"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Vue.js",
+    "descripcion": "Framework Vue.js",
+    "precio": 70,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+    "videos": [
+      {
+        "title": "Curso Vue.js 3 - Cómo Crear Proyecto Vue 3 y subirlo a Github",
+        "url": "https://www.youtube.com/embed/h2uMXGzX58M"
+      },
+      {
+        "title": "Curso Vue.js 3 - Fundamentos y Estructura de un Proyecto Vue 3",
+        "url": "https://www.youtube.com/embed/EIwjp1Vs-q0"
+      },
+      {
+        "title": "Curso Vue.js 3 - La reactividad y componentes en un Proyecto Vue 3",
+        "url": "https://www.youtube.com/embed/oeCfkrNyTk0"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo crear un formulario y lista con reactividad en Vue 3",
+        "url": "https://www.youtube.com/embed/lVdczEmQ1oU"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo crear rutas en Vue 3 con Vue-Router",
+        "url": "https://www.youtube.com/embed/U5U_y1XqZrE"
+      },
+      {
+        "title": "Curso Vue.js 3 - Agregar validaciones a un formulario en Vue 3 con Yup",
+        "url": "https://www.youtube.com/embed/TeCLj-bax54"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo usar Pinia y Watch para almacenar estados en Vue",
+        "url": "https://www.youtube.com/embed/Q8tS_upHm6Q"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo realizar peticiones HTTP a un API con Axios en Vue",
+        "url": "https://www.youtube.com/embed/2nqgY2w31hg"
+      },
+      {
+        "title": "Curso Vue.js 3 - Componentes Padres, Componentes Hijos y Props",
+        "url": "https://www.youtube.com/embed/aPE5d2HBU-o"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo usar las Propiedades Computadas",
+        "url": "https://www.youtube.com/embed/ow-vkZgRohA"
+      },
+      {
+        "title": "Curso Vue.js 3 - Cómo usar V-SHOW y V-IF para condicionar la impresión de elementos",
+        "url": "https://www.youtube.com/embed/URLXLBamqBQ"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de SQL",
+    "descripcion": "Bases de datos con SQL",
+    "precio": 50,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+    "videos": [
+      {
+        "title": "Curso COMPLETO de SQL y BASES DE DATOS Desde Cero para PRINCIPIANTES",
+        "url": "https://www.youtube.com/embed/OuJerKzV5T0"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de MongoDB",
+    "descripcion": "NoSQL con MongoDB",
+    "precio": 55,
+    "imagen": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png",
+    "videos": [
+      {
+        "title": "Curso MongoDB - Qué es MongoDB",
+        "url": "https://www.youtube.com/embed/Fl0cyhjyTiw"
+      },
+      {
+        "title": "Curso MongoDB - Diferencias entre SQL y NoSQL",
+        "url": "https://www.youtube.com/embed/6zsWlsGnxt4"
+      },
+      {
+        "title": "Curso MongoDB - MongoDB [Arquitectura y ecosistema]",
+        "url": "https://www.youtube.com/embed/Ed9DeVBvuUE"
+      },
+      {
+        "title": "Curso MongoDB - Cómo instalar y configurar MongoDB",
+        "url": "https://www.youtube.com/embed/heZhS6UzF7k"
+      },
+      {
+        "title": "Curso MongoDB - Cómo crear una base de datos en MongoDB Shell",
+        "url": "https://www.youtube.com/embed/IH1FIjJa8sE"
+      },
+      {
+        "title": "Curso MongoDB - Cómo crear colecciones en MongoDB",
+        "url": "https://www.youtube.com/embed/32FujuiiQeo"
+      },
+      {
+        "title": "Curso MongoDB - Tipos de datos en MongoDB",
+        "url": "https://www.youtube.com/embed/FJrVRyMYpkc"
+      },
+      {
+        "title": "Curso MongoDB - Cómo crear una base de datos en MongoDB",
+        "url": "https://www.youtube.com/embed/5IaB55KbsXE"
+      },
+      {
+        "title": "Curso MongoDB - Modelado de datos MongoDB",
+        "url": "https://www.youtube.com/embed/4B65SDw0bCU"
+      },
+      {
+        "title": "Curso MongoDB - Bases de datos NoSQL",
+        "url": "https://www.youtube.com/embed/-GbWaNNhPck"
+      },
+      {
+        "title": "Curso MongoDB - MongoDB: Patrones de modelado",
+        "url": "https://www.youtube.com/embed/W8WN5c68e_M"
+      },
+      {
+        "title": "Curso MongoDB - Modelado de relaciones uno a uno",
+        "url": "https://www.youtube.com/embed/_yjde9Wa0Zw"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Docker",
+    "descripcion": "Contenedores con Docker",
+    "precio": 65,
+    "imagen": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    "videos": [
+      {
+        "title": "Curso Docker - INTRODUCCION A DOCKER",
+        "url": "https://www.youtube.com/embed/UZpyvK6UGFo"
+      },
+      {
+        "title": "Curso Docker - DOCKER EXPLICADO FÁCIL | CAPÍTULO 1",
+        "url": "https://www.youtube.com/embed/vjnOIE-CwMU"
+      },
+      {
+        "title": "Curso Docker - DOCKER EXPLICADO FÁCIL | CAPÍTULO 2",
+        "url": "https://www.youtube.com/embed/a8sf54TCRN4"
+      },
+      {
+        "title": "Curso Docker - DOCKER EXPLICADO FÁCIL | CAPÍTULO 3",
+        "url": "https://www.youtube.com/embed/GfL_Ltu-eyw"
+      },
+      {
+        "title": "Curso Docker - WORDPRESS Y MYSQL con DOCKER COMPOSE",
+        "url": "https://www.youtube.com/embed/eoFxMaeB9H4"
+      },
+      {
+        "title": "Curso Docker - NETWORKING EN DOCKER",
+        "url": "https://www.youtube.com/embed/BNHNMoSJz4g"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 1: Multi Stage Builds",
+        "url": "https://www.youtube.com/embed/62r32R75iZs"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 2: CI/CD",
+        "url": "https://www.youtube.com/embed/fFze33y5-RM"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 3: Swarm",
+        "url": "https://www.youtube.com/embed/jRYRC3ZZPW8"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 4: Multi Arch Builds",
+        "url": "https://www.youtube.com/embed/oqbHdn1oNCs"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 5: Registry + TLS",
+        "url": "https://www.youtube.com/embed/stVspIUHP4Q"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 6: Buildkit",
+        "url": "https://www.youtube.com/embed/NrpM2FX47Hg"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 7: 10 COMANDOS de DOCKER que NO SABIAS!",
+        "url": "https://www.youtube.com/embed/qgPvDbhGm2M"
+      },
+      {
+        "title": "Curso Docker - Docker NINJA 8 : SWARMPIT",
+        "url": "https://www.youtube.com/embed/f2gmhiYBW8Y"
+      },
+      {
+        "title": "Curso Docker - Docker está MUERTO? - Docker vs Containerd",
+        "url": "https://www.youtube.com/embed/2LgiAWtqOoA"
+      },
+      {
+        "title": "Curso Docker - Docker buildx - Build de múltiples plataformas en una sola linea",
+        "url": "https://www.youtube.com/embed/9jZTsfby5io"
+      },
+      {
+        "title": "Curso Docker - DOCKER De NOVATO a PRO!",
+        "url": "https://www.youtube.com/embed/CV_Uf3Dq-EU"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Kubernetes",
+    "descripcion": "Orquestación con Kubernetes",
+    "precio": 75,
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
+    "videos": [
+      {
+        "title": "Curso Kubernetes - INTRODUCCIÓN",
+        "url": "https://www.youtube.com/embed/ocjCj4zR8vI"
+      },
+      {
+        "title": "Curso Kubernetes - ¿Qué es un Clúster y un Nodo? Explicación Sencilla",
+        "url": "https://www.youtube.com/embed/JYnJRqDjqgg"
+      },
+      {
+        "title": "Curso Kubernetes - ¡EL NODO MAESTRO!",
+        "url": "https://www.youtube.com/embed/B_31uf268Dg"
+      },
+      {
+        "title": "Curso Kubernetes - Los nodos Worker",
+        "url": "https://www.youtube.com/embed/Mjk8fBS1jxU"
+      },
+      {
+        "title": "Curso Kubernetes - Minikube y Kubectl",
+        "url": "https://www.youtube.com/embed/BSjaRj99-_I"
+      },
+      {
+        "title": "Curso Kubernetes - Recursos de Kubernetes",
+        "url": "https://www.youtube.com/embed/xoTnQvKYQKg"
+      },
+      {
+        "title": "Curso Kubernetes - ¿Qué es un POD?",
+        "url": "https://www.youtube.com/embed/0toRgLRATlE"
+      },
+      {
+        "title": "Curso Kubernetes - Primeros comandos",
+        "url": "https://www.youtube.com/embed/Q2yeiFYprkY"
+      },
+      {
+        "title": "Curso Kubernetes - Comandos básicos de POD",
+        "url": "https://www.youtube.com/embed/914I1GspzoA"
+      },
+      {
+        "title": "Curso Kubernetes - Manifiestos",
+        "url": "https://www.youtube.com/embed/p7tn9fUSuVY"
+      },
+      {
+        "title": "Curso Kubernetes - Labels",
+        "url": "https://www.youtube.com/embed/MeBfofaS3QQ"
+      },
+      {
+        "title": "Curso Kubernetes - ReplicaSet",
+        "url": "https://www.youtube.com/embed/HxJuJWZQjo4"
+      }
+    ]
+  },
+  {
+    "nombre": "Curso de Machine Learning",
+    "descripcion": "Introducción a ML",
+    "precio": 80,
+    "imagen": "https://www.pngall.com/wp-content/uploads/15/Machine-Learning-PNG-File.png",
+    "videos": [
+      {
+        "title": "Curso Machine Learning - Introduccion",
+        "url": "https://www.youtube.com/embed/XcmCwJCNR7Q"
+      },
+      {
+        "title": "Curso Machine Learning - El aprendizaje Automatico",
+        "url": "https://www.youtube.com/embed/a7h9b9mZF-o"
+      },
+      {
+        "title": "Curso Machine Learning - Ambiente Virtual",
+        "url": "https://www.youtube.com/embed/d4D0Axhri94"
+      },
+      {
+        "title": "Curso Machine Learning - Tratamiento de datos",
+        "url": "https://www.youtube.com/embed/TrigOgx9wb8"
+      },
+      {
+        "title": "Curso Machine Learning - Recopilacion y Exploracion de Datos",
+        "url": "https://www.youtube.com/embed/mDPIKtWut5w"
+      },
+      {
+        "title": "Curso Machine Learning - Normalizacion de Datos",
+        "url": "https://www.youtube.com/embed/lHU3xdZy5nE"
+      },
+      {
+        "title": "Curso Machine Learning - Data Encoding",
+        "url": "https://www.youtube.com/embed/RcQvbwfmL0Y"
+      },
+      {
+        "title": "Curso Machine Learning - Datos de Entrenamiento y de Prueba",
+        "url": "https://www.youtube.com/embed/LVrD_BPVO0I"
+      },
+      {
+        "title": "Curso Machine Learning - Metricas para Classification",
+        "url": "https://www.youtube.com/embed/TnA9ZFjWBFY"
+      },
+      {
+        "title": "Curso Machine Learning - Metricas Para Regresion",
+        "url": "https://www.youtube.com/embed/1kQAv_xLmIw"
+      },
+      {
+        "title": "Curso Machine Learning - Kmeans Clustering",
+        "url": "https://www.youtube.com/embed/xDLvB_zQ05w"
+      },
+      {
+        "title": "Curso Machine Learning - Clusterización Jerárquica",
+        "url": "https://www.youtube.com/embed/ExHs55ksyNU"
+      }
+    ]
+  }
+]
